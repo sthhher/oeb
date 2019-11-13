@@ -37,6 +37,10 @@ A json schema for MuG.
 ### tool_schema_internal_OEB.json
 A json schema for OEB. Is to validate all the data the developer introduce. Also we have a mongo collection with extensions of file_type and what datasets accept. For example: dataset aggregation oly accept file_type JSON and TAR and JSON has extension of "json" and TAR extension of "tar".
 
+### json_schema_FAIRfication_OEB.json
+A json schema to validate with  fairtracks validator (https://github.com/fairtracks/fairtracks_validator).
+
+
 ## w3id-PermanentID
 The way about how we have done the document .htaccess to get a permanentID, PURL.
 
