@@ -28,11 +28,11 @@ Describes the different types of datasets involved in OpenEBench platform. **OEB
 
 ## OpEB-VRE-schemas
 
-## json_schema_mongodb.json
+### json_schema_mongodb.json
 A json schema for validate in mongodb. 
 
-## tool_schema_internal_MuG.json
+### tool_schema_internal_MuG.json
 A json schema for MuG.
 
-## tool_schema_internal_OEB.json
+### tool_schema_internal_OEB.json
 A json schema for OEB. Is to validate all the data the developer introduce. Also we have a mongo collection with extensions of file_type and what datasets accept. For example: dataset aggregation oly accept file_type JSON and TAR and JSON has extension of "json" and TAR extension of "tar".
