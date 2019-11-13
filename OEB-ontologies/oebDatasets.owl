@@ -1,0 +1,219 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/oebDatasets#"
+     xml:base="https://w3id.org/oebDatasets"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:edam="http://purl.obolibrary.org/obo/edam#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:obda="https://w3id.org/obda/vocabulary#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:edamontology="http://edamontology.org/">
+    <owl:Ontology rdf:about="https://w3id.org/oebDatasets">
+        <doap:Version rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</doap:Version>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://usefulinc.com/ns/doap#Version -->
+
+    <owl:AnnotationProperty rdf:about="http://usefulinc.com/ns/doap#Version"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/oebDatasets#FileType -->
+
+    <rdfs:Datatype rdf:about="https://w3id.org/oebDatasets#FileType"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/oebDatasets#file_type -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/oebDatasets#file_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/oebDatasets#aggregation -->
+
+    <owl:Class rdf:about="https://w3id.org/oebDatasets#aggregation">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oebDatasets#dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oebDatasets#assessment -->
+
+    <owl:Class rdf:about="https://w3id.org/oebDatasets#assessment">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oebDatasets#dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oebDatasets#configuration_file -->
+
+    <owl:Class rdf:about="https://w3id.org/oebDatasets#configuration_file">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oebDatasets#dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oebDatasets#data_log -->
+
+    <owl:Class rdf:about="https://w3id.org/oebDatasets#data_log">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oebDatasets#dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oebDatasets#dataset -->
+
+    <owl:Class rdf:about="https://w3id.org/oebDatasets#dataset"/>
+    
+
+
+    <!-- https://w3id.org/oebDatasets#input -->
+
+    <owl:Class rdf:about="https://w3id.org/oebDatasets#input">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oebDatasets#dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oebDatasets#metrics_reference -->
+
+    <owl:Class rdf:about="https://w3id.org/oebDatasets#metrics_reference">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oebDatasets#dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oebDatasets#nextflow_workflow_config -->
+
+    <owl:Class rdf:about="https://w3id.org/oebDatasets#nextflow_workflow_config">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oebDatasets#dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oebDatasets#nextflow_workflow_main -->
+
+    <owl:Class rdf:about="https://w3id.org/oebDatasets#nextflow_workflow_main">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oebDatasets#dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oebDatasets#participant -->
+
+    <owl:Class rdf:about="https://w3id.org/oebDatasets#participant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oebDatasets#dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oebDatasets#public_reference -->
+
+    <owl:Class rdf:about="https://w3id.org/oebDatasets#public_reference">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oebDatasets#dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oebDatasets#report_image -->
+
+    <owl:Class rdf:about="https://w3id.org/oebDatasets#report_image">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oebDatasets#dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/oebDatasets#tool_statistics -->
+
+    <owl:Class rdf:about="https://w3id.org/oebDatasets#tool_statistics">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/oebDatasets#dataset"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/oebDatasets#aggregation"/>
+            <rdf:Description rdf:about="https://w3id.org/oebDatasets#assessment"/>
+            <rdf:Description rdf:about="https://w3id.org/oebDatasets#configuration_file"/>
+            <rdf:Description rdf:about="https://w3id.org/oebDatasets#data_log"/>
+            <rdf:Description rdf:about="https://w3id.org/oebDatasets#input"/>
+            <rdf:Description rdf:about="https://w3id.org/oebDatasets#metrics_reference"/>
+            <rdf:Description rdf:about="https://w3id.org/oebDatasets#nextflow_workflow_config"/>
+            <rdf:Description rdf:about="https://w3id.org/oebDatasets#nextflow_workflow_main"/>
+            <rdf:Description rdf:about="https://w3id.org/oebDatasets#participant"/>
+            <rdf:Description rdf:about="https://w3id.org/oebDatasets#public_reference"/>
+            <rdf:Description rdf:about="https://w3id.org/oebDatasets#report_image"/>
+            <rdf:Description rdf:about="https://w3id.org/oebDatasets#tool_statistics"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
