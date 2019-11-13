@@ -15,6 +15,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:edamontology="http://edamontology.org/">
     <owl:Ontology rdf:about="https://w3id.org/oebDatasets">
+        <owl:versionIRI rdf:resource="https://w3id.org/oebDatasets/0.1"/>
         <doap:Version rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.1</doap:Version>
     </owl:Ontology>
     
