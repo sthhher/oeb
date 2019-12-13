@@ -193,41 +193,20 @@
             "type": "array",
             "items": {
               "type": "string",
-              "enum": [
-                "FASTA",
-                "TAR",
-                "TXT",
-                "JSON",
-                "ERR",
-                "PDB",
-                "XML",
-                "NF",
-                "NEXUS",
-                "NEWICK",
-                "IMG",
-                null
-              ]
+              "format":"term",
+              "ontology": ["http://edamontology.org/EDAM_1.21.owl","https://w3id.org/oebDataFormats"],
+              "ancestors": "https://w3id.org/oebDataFormats/FormatDatasets",
+              "matchType": "label"
             }
           },
           "data_type": {
             "type": "array",
             "items": {
               "type": "string",
-              "enum": [
-                "tool_statistics",
-                "data_log",
-                "metrics_reference",
-                "nextflow_workflow_config",
-                "nextflow_workflow_main",
-                "assessment",
-                "aggregation",
-                "participant",
-                "public_reference",
-                "input",
-                "report_image",
-                "configuration_file",
-                null
-              ]
+              "format":"term",
+              "ontology": "https://w3id.org/oebDatasets", 
+              "ancestors": "https://w3id.org/oebDatasets/dataset",
+              "matchType": "label"
             }
           },
           "required": {
@@ -379,38 +358,17 @@
             "properties": {
               "file_type": {
                 "type": "string",
-                "enum": [
-                  "FASTA",
-                  "TAR",
-                  "TXT",
-                  "JSON",
-                  "ERR",
-                  "PDB",
-                  "XML",
-                  "NF",
-                  "NEXUS",
-                  "NEWICK",
-                  "IMG",
-                  null
-                ]
+                "format":"term",
+                "ontology": ["http://edamontology.org/EDAM_1.21.owl","https://w3id.org/oebDataFormats"],
+                "ancestors": "https://w3id.org/oebDataFormats/FormatDatasets",
+                "matchType": "label"
               },
               "data_type": {
                 "type": "string",
-                "enum": [
-                  "tool_statistics",
-                  "data_log",
-                  "metrics_reference",
-                  "nextflow_workflow_config",
-                  "nextflow_workflow_main",
-                  "assessment",
-                  "aggregation",
-                  "participant",
-                  "public_reference",
-                  "input",
-                  "report_image",
-                  "configuration_file",
-                  null
-                ]
+                "format":"term",
+                "ontology": "https://w3id.org/oebDatasets", 
+                "ancestors": "https://w3id.org/oebDatasets/dataset",
+                "matchType": "label"
               },
               "file_path": {
                 "type": "string",
@@ -641,41 +599,20 @@
             "type": "array",
             "items": {
               "type": "string",
-              "enum": [
-                "FASTA",
-                "TAR",
-                "TXT",
-                "JSON",
-                "ERR",
-                "PDB",
-                "XML",
-                "NF",
-                "NEXUS",
-                "NEWICK",
-                "IMG",
-                null
-              ]
+              "format":"term",
+              "ontology": ["http://edamontology.org/EDAM_1.21.owl","https://w3id.org/oebDataFormats"],
+              "ancestors": "https://w3id.org/oebDataFormats/FormatDatasets",
+              "matchType": "label"
             }
           },
           "data_type": {
             "type": "array",
             "items": {
               "type": "string",
-              "enum": [
-                "tool_statistics",
-                "data_log",
-                "metrics_reference",
-                "nextflow_workflow_config",
-                "nextflow_workflow_main",
-                "assessment",
-                "aggregation",
-                "participant",
-                "public_reference",
-                "input",
-                "report_image",
-                "configuration_file",
-                null
-              ]
+              "format":"term",
+              "ontology": "https://w3id.org/oebDatasets", 
+              "ancestors": "https://w3id.org/oebDatasets/dataset",
+              "matchType": "label"
             }
           },
           "required": {
