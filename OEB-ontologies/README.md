@@ -9,5 +9,8 @@ Based on [EDAM](http://edamontology.org/EDAM.owl), **oebDataFormats** imports it
 
 ## OEBdatasets ontology
 Describes the different types of datasets involved in OpenEBench platform. **OEBdatasets** imports oebDataFormats' ontology to better define dataset's files adding 'file_type' properties.
+- New classes: aggregation, assessment, configuration_file, data_log, input,
+		metrics_reference, nextflow_workflow_config, nextflow_workflow_main,
+		participant, public_reference, report_image, tool_statistics
 
 
